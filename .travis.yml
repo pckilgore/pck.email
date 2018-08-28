@@ -1,4 +1,4 @@
 language: node_js
 install:
   - npm ci
-dist: bionic
+dist: trusty
