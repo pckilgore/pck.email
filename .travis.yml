@@ -4,7 +4,7 @@ node_js:
 dist: trusty
 cache:
   directories:
-    - node_modules
+    - $HOME/.npm
 script: npm test
 before_deploy: npm install now --no-save
 deploy:
