@@ -23,7 +23,7 @@ module.exports = {
   ** Generate to public/ for now.sh
   */
   generate: {
-    dir: "/public", // Wo
+    dir: "/public", // yep, really.
     minify: {
       collapseWhitespace: true,
       removeComments: true
