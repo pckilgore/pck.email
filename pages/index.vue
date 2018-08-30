@@ -8,6 +8,7 @@
       <h2 class="subtitle">
         Patrick Kilgore's programming portfolio/resume.
       </h2>
+      <p> Deployed with now.sh</p>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
