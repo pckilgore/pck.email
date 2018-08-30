@@ -9,6 +9,7 @@
     "build": "nuxt build",
     "build-now": "nuxt generate",
     "start": "serve public",
+    "test": "echo 'Write tests!!!!!!!!!!!!'",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
