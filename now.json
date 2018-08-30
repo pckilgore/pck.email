@@ -1,9 +1,5 @@
 {
   "name": "pck-email",
   "alias": "pck.email",
-  "type": "static",
-  "files": ["dist"],
-  "static": {
-    "public": "dist"
-  }
+  "type": "static"
 }
