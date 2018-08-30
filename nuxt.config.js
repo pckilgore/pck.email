@@ -32,6 +32,19 @@ module.exports = {
   */
   loading: { color: "#3B8070" },
   /*
+  ** Generate to /public for now.sh
+  */
+  generate: {
+    dir:
+      process.env.NODE_ENV === "production"
+        ? "/public" // yep, really.
+        : "public/",
+    minify: {
+      collapseWhitespace: true,
+      removeComments: true
+    }
+  },
+  /*
   ** Build configuration
   */
   build: {
