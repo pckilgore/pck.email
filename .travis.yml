@@ -3,6 +3,9 @@ node_js:
   - node
 install:
   - npm ci
+cache:
+  directories:
+    - node_modules
 dist: trusty
 script: npm test
 before_deploy: npm install now --no-save
