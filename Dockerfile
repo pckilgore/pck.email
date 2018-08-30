@@ -11,4 +11,4 @@ RUN NODE_ENV=production npm install --silent
 COPY . .
 
 # Build and export the app
-RUN npm run build-now
+RUN npm run generate
