@@ -3,6 +3,7 @@ FROM mhart/alpine-node
 # Set the default working directory
 WORKDIR /usr/src
 ENV NODE_ENV=production
+RUN apk add --no-cache git
 # Install dependencies
 COPY package.json package-lock.json ./
 RUN npm install --silent
