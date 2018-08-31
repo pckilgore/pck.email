@@ -22,9 +22,10 @@
     "ext": "*.vue"
   },
   "dependencies": {
-    "nuxt": "^1.0.0",
+    "@nuxtjs/pwa": "^2.4.0",
     "babel-eslint": "^8.2.1",
     "babel-plugin-transform-imports": "^1.4.1",
+    "nuxt": "^1.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
     "vuetify": "^1.0.19"

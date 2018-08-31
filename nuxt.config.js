@@ -63,6 +63,10 @@ module.exports = {
     },
     vendor: ["~/plugins/vuetify.js"],
     extractCSS: true,
+    /**
+     *
+     */
+    modules:["@nuxtjs/pwa"],
     /*
     ** Run ESLint on save
     */
