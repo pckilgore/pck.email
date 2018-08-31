@@ -1,0 +1,9 @@
+{
+  "include": ["./components/**/*", "./pages/**/*", "./layouts/**/*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["src/components/*"]
+    }
+  }
+}
